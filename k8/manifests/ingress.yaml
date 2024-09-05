@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: ingress-resource-backend
 spec:
-- ingressClassName: nginx
+  ingressClassName: nginx
   rules:
     - host: go-app.com
     - http:
@@ -11,7 +11,7 @@ spec:
           - path: /
             pathType: ImplementationSpecific
             backend:
-              -service:
+              service:
                 -name: go-web-app
                 port:
                   number: 8080
