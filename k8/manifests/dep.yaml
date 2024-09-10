@@ -16,7 +16,7 @@ spec:
         app: go-web-app
     spec:
       containers:
-      - name: go-web-app
-        image: aditya807/go:latest
-        ports:
-        - containerPort: 8080
+        - name: go-web-app
+          image: aditya807/go:latest
+          ports:
+          - containerPort: 8080
