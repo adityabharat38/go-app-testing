@@ -15,11 +15,11 @@ spec:
                 name: go-app-deployment
                 port:
                   number: 80
-          - path: /courses
-            pathType: ImplementationSpecific
-            backend:
-              service:
-                name: go-app-deployment
-                port:
-                  number: 80
+          #- path: /courses
+          #  pathType: ImplementationSpecific
+          #  backend:
+          #    service:
+          #      name: go-app-deployment
+          #      port:
+          #        number: 80
 
