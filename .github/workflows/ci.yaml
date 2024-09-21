@@ -91,7 +91,7 @@ jobs:
         git config --global user.name "Aditya Bharat"
         git add helm-goruji/values.yaml
         git commit -m "Update tag in Helm chart"
-        #git push
+        git push
 # name: ci
 
 # on: [push]
