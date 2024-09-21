@@ -5,7 +5,7 @@ replicaCount: 5
 image:
   repository: aditya807/go
   pullPolicy: IfNotPresent
-  tag: "latest"
+  tag: "10970424112"
 
 imagePullSecrets: []
 
