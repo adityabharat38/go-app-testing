@@ -48,7 +48,7 @@ ingress:
   hosts:
     - host: garax.club
       paths:
-        - path: /courses
+        - path: /
           pathType: ImplementationSpecific
   tls: []
     # - secretName: chart-example-tls
